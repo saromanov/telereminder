@@ -1,3 +1,3 @@
-import Telegraf, { ContextMessageUpdate, Extra, Markup } from 'telegraf';
-import TelegrafI18n, { match } from 'telegraf-i18n';
-import path from path
+import Bot from "./logic/Bot"
+
+const bot = new Bot(process.env.TELEGRAM_TOKEN);
