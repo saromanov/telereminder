@@ -3,8 +3,8 @@ import { Telegram } from 'telegraf';
 
 export class Bot {
     private bot: Telegram;
-    constructor(tolen:string){
-        this.bot = new Telegram(process.env.TELEGRAM_TOKEN, {});
+    constructor(token:string){
+        this.bot = new Telegram(token, {});
     }
 
     async init(){
