@@ -1,0 +1,33 @@
+{
+  "name": "telereminder",
+  "version": "1.0.0",
+  "description": "Reminder bot on Telegram",
+  "dependencies": {
+    "@types/mongoose": "^5.7.10",
+    "mongoose": "^5.9.7",
+    "telegraf": "^3.35.0",
+    "telegram": "^1.0.0-alpha.2"
+  },
+  "devDependencies": {
+    "tslint": "^6.1.1",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "start": "tsc && node dist/main.js",
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saromanov/telereminder.git"
+  },
+  "keywords": [
+    "telegram",
+    "bot"
+  ],
+  "author": "Sergey Romanov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saromanov/telereminder/issues"
+  },
+  "homepage": "https://github.com/saromanov/telereminder#readme"
+}
