@@ -6,7 +6,7 @@
     "@types/mongoose": "^5.7.10",
     "mongoose": "^5.9.7",
     "telegraf": "^3.35.0",
-    "telegram": "^1.0.0-alpha.2"
+    "telegram": "^1.11.1"
   },
   "devDependencies": {
     "tslint": "^6.1.1",
